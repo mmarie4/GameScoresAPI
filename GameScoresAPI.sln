@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "EndlessFallAPI\API.csproj", "{1B856984-30D6-48AC-918D-BEF8816EFE0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{7DB4EC40-D01F-425C-95AD-31E2B0E549FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{E5F12AB4-F858-4A46-8332-CCDF19713ACB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B856984-30D6-48AC-918D-BEF8816EFE0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B856984-30D6-48AC-918D-BEF8816EFE0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B856984-30D6-48AC-918D-BEF8816EFE0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B856984-30D6-48AC-918D-BEF8816EFE0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DB4EC40-D01F-425C-95AD-31E2B0E549FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DB4EC40-D01F-425C-95AD-31E2B0E549FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DB4EC40-D01F-425C-95AD-31E2B0E549FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DB4EC40-D01F-425C-95AD-31E2B0E549FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5F12AB4-F858-4A46-8332-CCDF19713ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5F12AB4-F858-4A46-8332-CCDF19713ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5F12AB4-F858-4A46-8332-CCDF19713ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5F12AB4-F858-4A46-8332-CCDF19713ACB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

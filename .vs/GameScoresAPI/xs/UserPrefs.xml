@@ -1,0 +1,61 @@
+﻿<Properties StartupConfiguration="{1B856984-30D6-48AC-918D-BEF8816EFE0C}|API">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="DAL/Entities/Score.cs" Line="26" Column="48" />
+      <File FileName="DAL/Entities/Player.cs" />
+      <File FileName="DAL/Repositories/IRepository.cs" />
+      <File FileName="Services/Players/IPlayerService.cs" Line="1" Column="1" />
+      <File FileName="DAL/Repositories/Players/PlayerRepository.cs" Line="25" Column="1" />
+      <File FileName="DAL/Repositories/Players/IPlayerRepository.cs" Line="1" Column="1" />
+      <File FileName="Services/Players/PlayerService.cs" Line="23" Column="10" />
+      <File FileName="Services/Models/PlayerUpdateParameter.cs" Line="1" Column="1" />
+      <File FileName="Services/Models/PlayerCreateParameter.cs" Line="1" Column="1" />
+      <File FileName="Services/Models/Result.cs" Line="1" Column="1" />
+      <File FileName="Services/Scores/ScoreService.cs" Line="1" Column="1" />
+      <File FileName="DAL/Repositories/Scores/IScoreRepository.cs" />
+      <File FileName="DAL/Repositories/Scores/ScoreRepository.cs" />
+      <File FileName="EndlessFallAPI/Controllers/ScoreController.cs" />
+      <File FileName="EndlessFallAPI/Startup.cs" Line="1" Column="1" />
+      <File FileName="EndlessFallAPI/Properties/launchSettings.json" Line="23" Column="28" />
+      <File FileName="EndlessFallAPI/Controllers/PlayerController.cs" Line="28" Column="31" />
+      <File FileName="EndlessFallAPI/appsettings.json" Line="12" Column="103" />
+      <File FileName="EndlessFallAPI/Program.cs" Line="1" Column="1" />
+      <File FileName="Services/Scores/IScoreService.cs" Line="1" Column="1" />
+      <File FileName="DAL/GameContext.cs" Line="13" Column="16" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GameScoresAPI" expanded="True">
+            <Node name="API" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+            <Node name="DAL" expanded="True">
+              <Node name="Repositories" expanded="True">
+                <Node name="Players" expanded="True">
+                  <Node name="PlayerRepository.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Services" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Players" expanded="True" />
+              <Node name="Scores" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
