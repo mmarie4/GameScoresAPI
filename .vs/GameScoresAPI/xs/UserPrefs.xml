@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{1B856984-30D6-48AC-918D-BEF8816EFE0C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="API/appsettings.Development.json">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="DAL/Entities/Score.cs" Line="12" Column="23" />
-      <File FileName="DAL/Entities/Player.cs" Line="12" Column="1" />
+      <File FileName="DAL/Entities/Score.cs" Line="19" Column="42" />
+      <File FileName="DAL/Entities/Player.cs" Line="15" Column="25" />
       <File FileName="DAL/Repositories/IRepository.cs" Line="12" Column="40" />
       <File FileName="Services/Players/IPlayerService.cs" Line="1" Column="1" />
       <File FileName="DAL/Repositories/Players/PlayerRepository.cs" Line="16" Column="1" />
@@ -28,13 +28,7 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="GameScoresAPI" expanded="True">
-            <Node name="API" expanded="True">
-              <Node name="appsettings.json" expanded="True">
-                <Node name="appsettings.Development.json" selected="True" />
-              </Node>
-            </Node>
-          </Node>
+          <Node name="GameScoresAPI" expanded="True" />
         </State>
       </Pad>
     </Pads>
