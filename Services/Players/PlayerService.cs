@@ -7,7 +7,7 @@ using Services.Models;
 
 namespace Services.Players
 {
-    public class PlayerService
+    public class PlayerService : IPlayerService
     {
 
         private readonly IPlayerRepository _playerRepository;
@@ -23,16 +23,25 @@ namespace Services.Players
         }
 
 
-        public async Task CreatePlayerAsync(PlayerCreateParameter parameter)
+        public async Task<Player> CreatePlayerAsync(PlayerCreateParameter parameter)
         {
+            var player = new Player()
+            {
+                Country = parameter.Country,
+                DeviceId = parameter.DeviceId,
+                Name = parameter.Name
+            };
+            var result = await _playerRepository.AddAsync(player);
+
+            await _playerRepository.SaveAsync();
+            return result;
+        }
+
+        public async Task<Player> UpdatePlayerAsync(PlayerUpdateParameter parameter) {
             throw new NotImplementedException();
         }
 
-        public async Task UpdatePlayerAsync(PlayerUpdateParameter parameter) {
-            throw new NotImplementedException();
-        }
-
-        public async Task DeletePlayerAsync(string playerDeviceId) {
+        public async Task<Player> DeletePlayerAsync(string playerDeviceId) {
             throw new NotImplementedException();
         }
 

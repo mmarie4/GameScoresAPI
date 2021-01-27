@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Services.Scores;
 
-namespace EndlessFallAPI.Controllers
+namespace GameScoresAPI.Controllers
 {
     [ApiController]
     [Route("scores")]

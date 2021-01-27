@@ -1,38 +1,37 @@
-﻿<Properties StartupConfiguration="{7DB4EC40-D01F-425C-95AD-31E2B0E549FB}|Default">
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{1B856984-30D6-48AC-918D-BEF8816EFE0C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="API/appsettings.Development.json">
     <Files>
       <File FileName="DAL/Entities/Score.cs" Line="12" Column="23" />
-      <File FileName="DAL/Entities/Player.cs" Line="10" Column="6" />
+      <File FileName="DAL/Entities/Player.cs" Line="12" Column="1" />
       <File FileName="DAL/Repositories/IRepository.cs" Line="12" Column="40" />
-      <File FileName="Services/Players/IPlayerService.cs" />
-      <File FileName="DAL/Repositories/Players/PlayerRepository.cs" Line="10" Column="11" />
+      <File FileName="Services/Players/IPlayerService.cs" Line="1" Column="1" />
+      <File FileName="DAL/Repositories/Players/PlayerRepository.cs" Line="16" Column="1" />
       <File FileName="DAL/Repositories/Players/IPlayerRepository.cs" Line="8" Column="59" />
-      <File FileName="Services/Players/PlayerService.cs" />
-      <File FileName="Services/Models/PlayerUpdateParameter.cs" />
-      <File FileName="Services/Models/PlayerCreateParameter.cs" />
+      <File FileName="Services/Players/PlayerService.cs" Line="47" Column="1" />
+      <File FileName="Services/Models/PlayerUpdateParameter.cs" Line="3" Column="30" />
+      <File FileName="Services/Models/PlayerCreateParameter.cs" Line="3" Column="30" />
       <File FileName="Services/Models/Result.cs" />
-      <File FileName="Services/Scores/ScoreService.cs" />
+      <File FileName="Services/Scores/ScoreService.cs" Line="19" Column="47" />
       <File FileName="DAL/Repositories/Scores/IScoreRepository.cs" />
       <File FileName="DAL/Repositories/Scores/ScoreRepository.cs" Line="1" Column="1" />
       <File FileName="Services/Scores/IScoreService.cs" />
-      <File FileName="DAL/GameContext.cs" Line="17" Column="1" />
-      <File FileName="API/appsettings.Development.json" Line="10" Column="16" />
-      <File FileName="API/Program.cs" Line="1" Column="1" />
-      <File FileName="API/Startup.cs" Line="24" Column="38" />
-      <File FileName="DAL/Repositories/Repository.cs" Line="40" Column="54" />
+      <File FileName="DAL/GameContext.cs" Line="13" Column="51" />
+      <File FileName="API/appsettings.Development.json" Line="10" Column="76" />
+      <File FileName="API/Program.cs" Line="10" Column="1" />
+      <File FileName="API/Startup.cs" Line="38" Column="89" />
+      <File FileName="DAL/Repositories/Repository.cs" Line="48" Column="22" />
+      <File FileName="API/Properties/launchSettings.json" Line="20" Column="13" />
+      <File FileName="API/appsettings.json" Line="1" Column="1" />
+      <File FileName="API/Controllers/PlayerController.cs" Line="73" Column="32" />
+      <File FileName="API/Controllers/ScoreController.cs" Line="15" Column="60" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="GameScoresAPI" expanded="True">
-            <Node name="API" expanded="True" />
-            <Node name="DAL" expanded="True">
-              <Node name="Entities" expanded="True">
-                <Node name="Score.cs" selected="True" />
-              </Node>
-              <Node name="Repositories" expanded="True">
-                <Node name="Players" expanded="True" />
-                <Node name="Scores" expanded="True" />
+            <Node name="API" expanded="True">
+              <Node name="appsettings.json" expanded="True">
+                <Node name="appsettings.Development.json" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -40,6 +39,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.ItemProperties.Services PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

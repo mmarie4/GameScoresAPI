@@ -6,7 +6,7 @@ using Microsoft.Extensions.Logging;
 using Services.Models;
 using Services.Players;
 
-namespace EndlessFallAPI.Controllers
+namespace GameScoresAPI.Controllers
 {
     [ApiController]
     [Route("players")]
@@ -39,7 +39,7 @@ namespace EndlessFallAPI.Controllers
         /// </summary>
         /// <param name="deviceId"></param>
         /// <returns></returns>
-        [HttpGet("device-id/{deviceId}")]
+        [HttpGet("{deviceId}")]
         public async Task<Player> GetPlayer([FromRoute] string deviceId)
         {
             return await _playerService.GetPlayerAsync(deviceId);
@@ -51,7 +51,7 @@ namespace EndlessFallAPI.Controllers
         /// <param name="parameter"></param>
         /// <returns></returns>
         [HttpPost("")]
-        public async Task<Result> CreatePlayer([FromBody] PlayerCreateParameter parameter) {
+        public async Task<Player> CreatePlayer([FromBody] PlayerCreateParameter parameter) {
             return await _playerService.CreatePlayerAsync(parameter);
         }
 
@@ -60,19 +60,19 @@ namespace EndlessFallAPI.Controllers
         /// </summary>
         /// <param name="deviceId"></param>
         /// <returns></returns>
-        [HttpPut("")]
-        public async Task<Result> UpdatePlayer([FromBody] PlayerUpdateParameter parameter)
+        [HttpPut("{deviceId}")]
+        public async Task<Player> UpdatePlayer([FromBody] PlayerUpdateParameter parameter)
         {
             return await _playerService.UpdatePlayerAsync(parameter);
         }
 
         /// <summary>
-        /// Deletes a plqyer using the device id
+        /// Deletes a player using the device id
         /// </summary>
         /// <param name="deviceId"></param>
         /// <returns></returns>
-        [HttpDelete("device-id/{deviceId}")]
-        public async Task<Result> DeletePlayer([FromBody] string deviceId)
+        [HttpDelete("{deviceId}")]
+        public async Task<Player> DeletePlayer([FromBody] string deviceId)
         {
             return await _playerService.DeletePlayerAsync(deviceId);
         }

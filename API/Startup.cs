@@ -1,12 +1,16 @@
 using DAL;
+using DAL.Repositories.Players;
+using DAL.Repositories.Scores;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Services.Players;
+using Services.Scores;
 
-namespace EndlessFallAPI
+namespace GameScoresAPI
 {
     public class Startup
     {
@@ -22,6 +26,14 @@ namespace EndlessFallAPI
         {
             services.AddControllers();
             services.AddSwaggerGen();
+
+            // Services
+            services.AddTransient<IPlayerService, PlayerService>();
+            services.AddTransient<IScoreService, ScoreService>();
+
+            services.AddTransient<IPlayerRepository, PlayerRepository>();
+            services.AddTransient<IScoreRepository, ScoreRepository>();
+
             services.AddDbContext<GameContext>(opt =>
                 opt.UseNpgsql(Configuration.GetConnectionString("GameScoresDatabase")));
         }
@@ -52,7 +64,7 @@ namespace EndlessFallAPI
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "GameScores API v1.0");
             });
         }
     }

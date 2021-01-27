@@ -1,8 +1,12 @@
-﻿using System;
-namespace Services.Models
+﻿namespace Services.Models
 {
-    public class PlayerUpdateParameter
+    public class PlayerCreateParameter
     {
+        
+        public string DeviceId { get; set; }
+
         public string Name { get; set; }
+        
+        public string Country { get; set; }
     }
 }

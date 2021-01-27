@@ -17,7 +17,6 @@
 /Users/max/Projects/GameScoresAPI/DAL/bin/Debug/netcoreapp3.1/DAL.deps.json
 /Users/max/Projects/GameScoresAPI/DAL/bin/Debug/netcoreapp3.1/DAL.dll
 /Users/max/Projects/GameScoresAPI/DAL/bin/Debug/netcoreapp3.1/DAL.pdb
-/Users/max/Projects/GameScoresAPI/DAL/obj/Debug/netcoreapp3.1/DAL.csprojAssemblyReference.cache
 /Users/max/Projects/GameScoresAPI/DAL/obj/Debug/netcoreapp3.1/DAL.AssemblyInfoInputs.cache
 /Users/max/Projects/GameScoresAPI/DAL/obj/Debug/netcoreapp3.1/DAL.AssemblyInfo.cs
 /Users/max/Projects/GameScoresAPI/DAL/obj/Debug/netcoreapp3.1/DAL.csproj.CoreCompileInputs.cache

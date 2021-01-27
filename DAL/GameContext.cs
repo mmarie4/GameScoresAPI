@@ -1,11 +1,12 @@
-﻿using DAL.Entities;
+﻿using System.Diagnostics.CodeAnalysis;
+using DAL.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace DAL
 {
     public class GameContext : DbContext
     {
-        public GameContext()
+        public GameContext([NotNull] DbContextOptions<GameContext> options) : base(options)
         {
         }
 
