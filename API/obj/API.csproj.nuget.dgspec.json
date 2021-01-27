@@ -1,17 +1,87 @@
 {
   "format": 1,
   "restore": {
-    "/Users/max/Projects/EndlessFallAPI/EndlessFallAPI/API.csproj": {}
+    "/Users/max/Projects/GameScoresAPI/API/API.csproj": {}
   },
   "projects": {
-    "/Users/max/Projects/EndlessFallAPI/DAL/DAL.csproj": {
+    "/Users/max/Projects/GameScoresAPI/API/API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/max/Projects/EndlessFallAPI/DAL/DAL.csproj",
-        "projectName": "DAL",
-        "projectPath": "/Users/max/Projects/EndlessFallAPI/DAL/DAL.csproj",
+        "projectUniqueName": "/Users/max/Projects/GameScoresAPI/API/API.csproj",
+        "projectName": "API",
+        "projectPath": "/Users/max/Projects/GameScoresAPI/API/API.csproj",
         "packagesPath": "/Users/max/.nuget/packages/",
-        "outputPath": "/Users/max/Projects/EndlessFallAPI/DAL/obj/",
+        "outputPath": "/Users/max/Projects/GameScoresAPI/API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/max/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/max/Projects/GameScoresAPI/DAL/DAL.csproj": {
+                "projectPath": "/Users/max/Projects/GameScoresAPI/DAL/DAL.csproj"
+              },
+              "/Users/max/Projects/GameScoresAPI/Services/Services.csproj": {
+                "projectPath": "/Users/max/Projects/GameScoresAPI/Services/Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/max/Projects/GameScoresAPI/DAL/DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/max/Projects/GameScoresAPI/DAL/DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "/Users/max/Projects/GameScoresAPI/DAL/DAL.csproj",
+        "packagesPath": "/Users/max/.nuget/packages/",
+        "outputPath": "/Users/max/Projects/GameScoresAPI/DAL/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/max/.config/NuGet/NuGet.Config"
@@ -63,80 +133,14 @@
         }
       }
     },
-    "/Users/max/Projects/EndlessFallAPI/EndlessFallAPI/API.csproj": {
+    "/Users/max/Projects/GameScoresAPI/Services/Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/max/Projects/EndlessFallAPI/EndlessFallAPI/API.csproj",
-        "projectName": "API",
-        "projectPath": "/Users/max/Projects/EndlessFallAPI/EndlessFallAPI/API.csproj",
-        "packagesPath": "/Users/max/.nuget/packages/",
-        "outputPath": "/Users/max/Projects/EndlessFallAPI/EndlessFallAPI/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/max/.config/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "/Users/max/Projects/EndlessFallAPI/DAL/DAL.csproj": {
-                "projectPath": "/Users/max/Projects/EndlessFallAPI/DAL/DAL.csproj"
-              },
-              "/Users/max/Projects/EndlessFallAPI/Services/Services.csproj": {
-                "projectPath": "/Users/max/Projects/EndlessFallAPI/Services/Services.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "dependencies": {
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[5.6.3, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/max/Projects/EndlessFallAPI/Services/Services.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/max/Projects/EndlessFallAPI/Services/Services.csproj",
+        "projectUniqueName": "/Users/max/Projects/GameScoresAPI/Services/Services.csproj",
         "projectName": "Services",
-        "projectPath": "/Users/max/Projects/EndlessFallAPI/Services/Services.csproj",
+        "projectPath": "/Users/max/Projects/GameScoresAPI/Services/Services.csproj",
         "packagesPath": "/Users/max/.nuget/packages/",
-        "outputPath": "/Users/max/Projects/EndlessFallAPI/Services/obj/",
+        "outputPath": "/Users/max/Projects/GameScoresAPI/Services/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/max/.config/NuGet/NuGet.Config"
@@ -150,8 +154,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/Users/max/Projects/EndlessFallAPI/DAL/DAL.csproj": {
-                "projectPath": "/Users/max/Projects/EndlessFallAPI/DAL/DAL.csproj"
+              "/Users/max/Projects/GameScoresAPI/DAL/DAL.csproj": {
+                "projectPath": "/Users/max/Projects/GameScoresAPI/DAL/DAL.csproj"
               }
             }
           }

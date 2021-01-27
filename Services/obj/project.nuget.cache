@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TRylATssmmzTr4qM7QQ2b6d1Alf4dkFubTWGGuFl5nkl7UMTD6KPe6leTYHz6ZzVtmaCPAHhsm3IFmMMSslU9A==",
+  "dgSpecHash": "ixaPTLYJF6sT1tvV7b2wSAX9dsP1AYxm5MZzyyb5JFoCiXRubq0Pfo90YwWO+19cZXZe+IO821rSW0/eud5JtA==",
   "success": true,
-  "projectFilePath": "/Users/max/Projects/EndlessFallAPI/Services/Services.csproj",
+  "projectFilePath": "/Users/max/Projects/GameScoresAPI/Services/Services.csproj",
   "expectedPackageFiles": [
     "/Users/max/.nuget/packages/microsoft.entityframeworkcore/5.0.0/microsoft.entityframeworkcore.5.0.0.nupkg.sha512",
     "/Users/max/.nuget/packages/microsoft.entityframeworkcore.abstractions/5.0.0/microsoft.entityframeworkcore.abstractions.5.0.0.nupkg.sha512",

@@ -1,5 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DAL.Entities
@@ -8,15 +8,12 @@ namespace DAL.Entities
     [Table("players")]
     public class Player
     {
-
-        [Column("id")]
-        public Guid Id { get; set; }
-
+        [Key]
         [Column("device_id")]
-        public string Name { get; set; }
+        public string DeviceId { get; set; }
 
         [Column("name")]
-        public string DeviceId { get; set; }
+        public string Name { get; set; }
 
         [Column("country")]
         public string Country { get; set; }

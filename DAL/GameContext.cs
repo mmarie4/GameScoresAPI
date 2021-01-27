@@ -11,5 +11,6 @@ namespace DAL
 
         public DbSet<Player> Players { get; set; }
         public DbSet<Score> Scores { get; set; }
+
     }
 }

@@ -533,11 +533,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/max/Projects/EndlessFallAPI/DAL/DAL.csproj",
+      "projectUniqueName": "/Users/max/Projects/GameScoresAPI/DAL/DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "/Users/max/Projects/EndlessFallAPI/DAL/DAL.csproj",
+      "projectPath": "/Users/max/Projects/GameScoresAPI/DAL/DAL.csproj",
       "packagesPath": "/Users/max/.nuget/packages/",
-      "outputPath": "/Users/max/Projects/EndlessFallAPI/DAL/obj/",
+      "outputPath": "/Users/max/Projects/GameScoresAPI/DAL/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/max/.config/NuGet/NuGet.Config"

@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "EndlessFallAPI\API.csproj", "{1B856984-30D6-48AC-918D-BEF8816EFE0C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{1B856984-30D6-48AC-918D-BEF8816EFE0C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{7DB4EC40-D01F-425C-95AD-31E2B0E549FB}"
 EndProject

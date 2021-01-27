@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/max/Projects/EndlessFallAPI/Services/Services.csproj": {}
+    "/Users/max/Projects/GameScoresAPI/Services/Services.csproj": {}
   },
   "projects": {
-    "/Users/max/Projects/EndlessFallAPI/DAL/DAL.csproj": {
+    "/Users/max/Projects/GameScoresAPI/DAL/DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/max/Projects/EndlessFallAPI/DAL/DAL.csproj",
+        "projectUniqueName": "/Users/max/Projects/GameScoresAPI/DAL/DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "/Users/max/Projects/EndlessFallAPI/DAL/DAL.csproj",
+        "projectPath": "/Users/max/Projects/GameScoresAPI/DAL/DAL.csproj",
         "packagesPath": "/Users/max/.nuget/packages/",
-        "outputPath": "/Users/max/Projects/EndlessFallAPI/DAL/obj/",
+        "outputPath": "/Users/max/Projects/GameScoresAPI/DAL/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/max/.config/NuGet/NuGet.Config"
@@ -63,14 +63,14 @@
         }
       }
     },
-    "/Users/max/Projects/EndlessFallAPI/Services/Services.csproj": {
+    "/Users/max/Projects/GameScoresAPI/Services/Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/max/Projects/EndlessFallAPI/Services/Services.csproj",
+        "projectUniqueName": "/Users/max/Projects/GameScoresAPI/Services/Services.csproj",
         "projectName": "Services",
-        "projectPath": "/Users/max/Projects/EndlessFallAPI/Services/Services.csproj",
+        "projectPath": "/Users/max/Projects/GameScoresAPI/Services/Services.csproj",
         "packagesPath": "/Users/max/.nuget/packages/",
-        "outputPath": "/Users/max/Projects/EndlessFallAPI/Services/obj/",
+        "outputPath": "/Users/max/Projects/GameScoresAPI/Services/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/max/.config/NuGet/NuGet.Config"
@@ -84,8 +84,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/Users/max/Projects/EndlessFallAPI/DAL/DAL.csproj": {
-                "projectPath": "/Users/max/Projects/EndlessFallAPI/DAL/DAL.csproj"
+              "/Users/max/Projects/GameScoresAPI/DAL/DAL.csproj": {
+                "projectPath": "/Users/max/Projects/GameScoresAPI/DAL/DAL.csproj"
               }
             }
           }

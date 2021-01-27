@@ -1,9 +1,10 @@
-﻿using System;
+﻿using DAL.Entities;
+
 namespace DAL.Repositories.Scores
 {
-    public class ScoreRepository : IScoreRepository
+    public class ScoreRepository : Repository<Score>, IScoreRepository
     {
-        public ScoreRepository()
+        public ScoreRepository(GameContext context) : base(context)
         {
         }
     }
